@@ -1,0 +1,121 @@
+a:link {
+  color: gray;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Arial;
+  text-align: right;
+  color: gray;
+}
+
+ul {
+  margin: 1em;
+  font-family: Arial;
+  font-size: .76em;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul a {
+  text-align: left;
+  display: block;
+  width: 300px;
+  margin: .5em;
+}
+
+section p {
+  font-family: Arial;
+  font-size: .70em;
+}
+
+.blogEntry {
+  width: 60%;
+  display: inline-block;
+  margin-bottom: 1.5em;
+}
+
+.bottomBar {
+  position: fixed;
+  float: right;
+  border-top: double black;
+  width: 90%;
+  margin-bottom: 0px;
+  text-align: right;
+  font-family: Arial;
+  font-size: .75em;
+  font-color: white;
+}
+
+.entryDate {
+  font-family: Arial;
+  font-size: .75em;
+
+}
+
+.firstLetter {
+  font-color: black;
+}
+
+.pageTitle {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 10%;
+  text-align: right;
+  display: block;
+}
+
+.pageTitle p {
+  font-size: 5em;
+  font-color:gray;
+  font-family:Times New Roman;
+  display: inline;
+}
+
+.navBar {
+  width: 90%;
+  text-align: center;
+  background-color: light gray;
+  border-top: double black;
+  border-bottom: double black;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.navBar p {
+  display: inline;
+  font-family: Arial;
+  font-size: .8em;
+  padding-left: 2.5em;
+  padding-right:2.5em;
+}
+
+.rightNavi {
+  display: inline-block;
+  width: 20%
+  text-decoration: none;
+  margin-top: 1em;
+  float: right;
+}
+
+.rntitle {
+  text-align: center;
+  font-family : Arial;
+
+}
