@@ -24,6 +24,11 @@ h1 {
   color: gray;
 }
 
+img {
+  height:75%;
+  width:75%;
+}
+
 ul {
   margin: 1em;
   font-family: Arial;
@@ -112,6 +117,7 @@ section p {
   text-decoration: none;
   margin-top: 1em;
   float: right;
+  position: fixed;
 }
 
 .rntitle {
