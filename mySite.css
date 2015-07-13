@@ -18,105 +18,110 @@ a:active {
   text-decoration: none;
 }
 
-h1 {
-  font-family: Arial;
-  text-align: right;
-  color: gray;
-}
-
 ul {
   margin: 1em;
-  font-family: Arial;
+  font-family: Century Gothic;
   font-size: .76em;
   text-decoration: none;
   list-style-type: none;
-  padding: 0;
+  padding: 1.5em;
 }
 
 ul a {
-  text-align: left;
+  text-align: center;
   display: block;
   width: 300px;
   margin: .5em;
 }
 
 section p {
-  font-family: Arial;
-  font-size: .70em;
+  font-family: Vollkorn;
+  font-size: 1.25em;
 }
 
 .blogEntry {
   width: 60%;
+  height: 800px;
   display: inline-block;
+  position: static;
   margin-bottom: 1.5em;
+}
+
+.blogTitle {
+  text-align: right;
+  font-family: Abril Fatface;
+  font-size: 4em;
 }
 
 .bottomBar {
   position: fixed;
-  float: right;
-  border-top: double black;
   width: 90%;
-  margin-bottom: 0px;
   text-align: right;
-  font-family: Arial;
+  font-family: Century Gothic;
   font-size: .75em;
-  font-color: white;
-}
-
-.entryDate {
-  font-family: Arial;
-  font-size: .75em;
-
-}
-
-.firstLetter {
   font-color: black;
-}
-
-.pageTitle {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-right: 10%;
-  text-align: center;
   display: block;
 }
 
+.entryDate {
+  font-family: Vollkorn;
+  font-size: 1em;
+
+}
+
+.pageTitle {
+  background-color: white;
+  padding-top: 1em;
+  padding-bottom:1em;
+  margin-bottom: 2em;
+  margin-left:1em;
+  text-align: left;
+  display: block;
+  position: fixed;
+}
+
 .pageTitle p {
-  font-size: 5em;
-  font-color:gray;
-  font-family:Times New Roman;
-  display: inline;
+  display: inline-block;
+  font-size: 2em;
+  font-color: gray;
+  font-family: Lato;
+  font-weight: strong;
 }
 
 .navBar {
-  width: 90%;
+  width: 100%;
+  display: block;
   text-align: center;
-  background-color: light gray;
-  border-top: double black;
-  border-bottom: double black;
-  padding-top: .5em;
-  padding-bottom: .5em;
+  background-color: white;
+  border-bottom: white;
+  border-top: white;
+  margin-top: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  position: fixed;
 }
 
 .navBar p {
   display: inline;
-  font-family: Arial;
+  font-family: Century Gothic;
   font-size: .8em;
   padding-left: 2.5em;
   padding-right:2.5em;
+
 }
 
 .rightNavi {
+  background-color: white;
   display: inline-block;
   width: 20%
   text-decoration: none;
   margin-top: 1em;
-  float: right;
   position: fixed;
+  float: right;
 }
 
 .rntitle {
   text-align: center;
-  font-family : Arial;
+  font-family : Century Gothic;
 
 }

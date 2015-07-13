@@ -2,6 +2,9 @@
 <head>
   <title>jl08's blog</title>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abril Fatface">
   <link rel="stylesheet" type="text/css" href="../mySite.css">
 </head>
 
@@ -9,60 +12,59 @@
 
   <body>
     <div class="pageTitle">
-      <p>Jenny Lee</p>
+      <p class="firstName">Jenny</p><p class="lastName">Lee</p>
     </div>
 
     <div class="navBar">
-      <a href=""><p>about me</p></a>
-      <a href="c1-chefs-kitchen.html"><p>blog</p></a>
-      <a href=""><p>projects</p></a>
+      <a href="../aboutMe.html"><p>about me</p></a>
+      <a href="../index.html"><p>blog</p></a>
+      <a href="../projects.html"><p>projects</p></a>
     </div>
 
     <div class="blogEntry">
-      <h1>arrays vs. hashes</h1>
+      <p class="blogTitle">arrays vs. hashes</p>
 
      <p class="entryDate">062815</p>
 
      <section>
-        <p>Arrays are basically ordered collections of any type of object.
+        <p>Arrays are basically ordered collections of any type of object.</p>
 
-        An array is written like so:
+        <p>An array is written like so:</p>
 
-        array_name = [ "Hello", 8, "cheese"]
+        <p>array_name = [ "Hello", 8, "cheese"]</p>
 
-        You can refer to any object in the array by an index. What is important to note is that the index starts at 0 and not at 1.
+        <p>You can refer to any object in the array by an index. What is important to note is that the index starts at 0 and not at 1.</p>
 
-        So if I wanted to refer to the object "Hello", I would have to write out:
+        <p>So if I wanted to refer to the object "Hello", I would have to write out:</p>
 
-        array_name[0]
+        <p>array_name[0]</p>
 
-        and this would point us to "Hello"
+        <p>and this would point us to "Hello"</p>
 
-        Hashes are kind of like arrays, but instead of using numbers for indices, in a hash there are key-value pairs.
+        <p>Hashes are kind of like arrays, but instead of using numbers for indices, in a hash there are key-value pairs.</p>
 
-        A hash can be created like so:
+        <p>A hash can be created like so:</p>
 
-        hash_name = {
-          key1 => value1
-          key2 => value2
-          key3 => value3
-        }
+        <p>hash_name = {</p>
+         <p> key1 => value1</p>
+         <p>key2 => value2</p>
+         <p>key3 => value3</p>
+        <p>}</p>
 
-        Key-value pairs allow us to refer to specific objects in the hash by their "key".
+        <p>Key-value pairs allow us to refer to specific objects in the hash by their "key".</p>
 
-        For example, if I wanted to refer to value2, I would write:
+        <p>For example, if I wanted to refer to value2, I would write:</p>
 
-        hash_name["key2"]
+        <p>hash_name["key2"]</p>
 
-        This would produce our value2.
+        <p>This would produce our value2.</p>
 
-        So... why use one over the other?
+        <p>So... why use one over the other?</p>
 
-        Although both are used to store data, hashes use specific "names" that link to the object, whereas arrays just use a number system.
+        <p>Although both are used to store data, hashes use specific "names" that link to the object, whereas arrays just use a number system.</p>
 
-        So if you don't want to use numbers to refer to the objects in your array, then use hashes!
+        <p>So if you don't want to use numbers to refer to the objects in your array, then use hashes!</p>
 
-         </p>
 
       </section>
     </div>
@@ -75,6 +77,8 @@
         <li><a href="062115.html">Margin vs. Border vs. Padding</a></li>
         <li><a href="t3-arrays-hashes.html">Arrays vs. Hashes</a></li>
         <li><a href="c3-thinking-style.html">Thinking Style</a></li>
+        <li><a href="t4-enumerable-methods.html">Enumerable Methods: group_by</a></li>
+        <li><a href="c4-tech-issues.html">Tech Issues: Online Security</a></li>
       </ul>
     </div>
 
