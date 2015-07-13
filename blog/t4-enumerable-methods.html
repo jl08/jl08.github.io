@@ -22,20 +22,31 @@
     </div>
 
     <div class="blogEntry">
-      <p class="blogTitle">Abstract Sequential Thinkers</p>
+      <p class="blogTitle">Enumerable Method</p>
 
-     <p class="entryDate">062815</p>
+     <p class="entryDate">071315</p>
 
      <section>
-        <p>So far the biggest struggle for me has been time management. Even though I did get a lot better than when I first started DBC, I still find myself struggling to finish some assignments at the last minute.
+        <p>What is an <strong>enumerable</strong>?</p>
 
-        My thinking style is abstract sequential, and after some research, I found that abstract sequential learners find it difficult when there is not enough time to get through a specific subject thoroughly. This may or may not be why I have trouble with time management, but if so, I am thinking I could probably try skimming through topics that don't require so much focus and basically "pick out" what seems most necessary.
+        <p>An <strong>enumerable</strong> basically allows us to count through a collection of data and sort it in some way.</p>
 
-        Seeing that abstract sequential thinkers learn best in when they have someone to refer to for questions,  I should probably try to reach out during tutoring or office hours more often.
+        <p> The <strong>group_by</strong> method works by allowing you to form groups based on the rules that you decide.
+        <p>It then returns a hash where the keys are the answer to the set rules and the values are arrays of elements from the original data that follow those rules, and therefore, are linked to the keys. </p>
+          <p>It's syntax looks like this:</p>
+          <p>group_by {|obj| block} --> a_hash</p>
 
-        Lastly, I think studying in different environments could be a nice change. I find that maybe being in the same spot all day every day could also add to frustration during long and/or difficult assignments.
+          <p>An example would be...</p>
+          <p> (1..6).group_by {|x| x % 3  }</p>
+          <p> will ouput...</p>
+          <p>{ 0 => [3,6], 1 => [1,4], 2 => [2,5] }</p>
 
-        Like coding, I plan to make make changes in increments so that I don't feel overwhelemed and burn out too quickly. Hopefully these small changes can help me with my time management, but even if it doesn't, I still believe they will be valuable in helping me become a more well-rounded person.
+          <p> In the example above, the numbers 1 through 6 were grouped by the rule:</p>
+          <p> For every number in the set, group it by what the remainder is when that number is divided by 3</p>
+
+          <p> As the output reads, the key 0 is assigned the values 3 and 6. This means that the numbers 3 and 6, when divided by 3, give a remainder of 0, which is why they are both under the same key (0). </p>
+
+          <p><strong>group_by</strong> is a great tool to use when you want to sort through a set of data and group it according to a set of rules that you choose!</p>
 
 
          </p>
@@ -50,7 +61,7 @@
         <li><a href="c1-chefs-kitchen.html">Thoughts on DBC...</a></li>
         <li><a href="062115.html">Margin vs. Border vs. Padding</a></li>
         <li><a href="t3-arrays-hashes.html">Arrays vs. Hashes</a></li>
-        <li><a href="c3-thinking-style.html">Thinking Style</a></li>
+        <li><a href="c3-thinking-style.html">Thinking Style</a>
         <li><a href="t4-enumerable-methods.html">Enumerable Methods: group_by</a></li>
         <li><a href="c4-tech-issues.html">Tech Issues: Online Security</a></li>
       </ul>
