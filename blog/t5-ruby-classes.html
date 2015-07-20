@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+  <title>jl08's blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abril Fatface">
+  <link rel="stylesheet" type="text/css" href="../mySite.css">
+</head>
+
+<main>
+
+  <body>
+    <div class="pageTitle">
+      <p class="firstName">Jenny</p><p class="lastName">Lee</p>
+    </div>
+
+    <div class="navBar">
+      <a href="../aboutMe.html"><p>about me</p></a>
+      <a href="../index.html"><p>blog</p></a>
+      <a href="../projects.html"><p>projects</p></a>
+    </div>
+
+    <div class="blogEntry">
+      <p class="blogTitle">Ruby Classes</p>
+
+     <p class="entryDate">072015</p>
+
+     <section>
+        <p>What is a <strong>class</strong>?</p>
+
+        <p>Below we have an example of a class called <strong>Die</strong> </p>
+        <img src="dieshot.png">
+
+          <p> In the example above, we have created a class <strong>Die</strong> that has three methods:</p>
+
+          <p> initialize</p>
+          <p> sides</p>
+          <p> roll</p>
+
+          <p> These methods are defined within the <strong>Die</strong> class, making them <strong>instance methods</p>. This just means that these methods can be used by any and all instances of our class <strong>Die</strong>.
+
+          <p> For instance... in our example above, you can call upon any of these methods on Die.</p>
+
+          <p> For example, if I wanted to create a die with 6 sides, I would write...</p>
+          <p> my_die = Die.new(6)</p>
+
+          <p> and if I wanted to see how many sides my_die has, I just have to call it like so...</p>
+
+          <p> my_die.sides</p>
+
+          <p> and it would output => 6 </p>
+
+          <p> Another important thing to mention are <strong>instance variables</strong>.</p>
+
+          <p><strong>Instance variables</strong> are different from regular variables in that they can be called upon anytime and anywhere within that class by any method defined by that class.</p>
+
+          <p> In other words, instance variables can be used by different methods as long as they are all within the same class. </p>
+
+          <p> They look different from the variables we are used to by the addition of one symbol: @ that precedes the variable name.</p>
+
+          <p> So in our example above, our <strong>instance variable</strong> is @num_sides. </p>
+
+          <p> Because @num_sides is an instance variable, it can be used in all three methods (initialize, sides, and roll) without it having to be redefined for each method.</p>
+
+          <p> Instance variables are great because not only do they allow our code to look a bit more concise and neat, but it saves a lot of time and prevents redundancy!</p>
+
+
+
+
+      </section>
+    </div>
+
+    <div class="rightNavi">
+      <p class="rntitle">Entries</p>
+      <ul>
+        <li><a href="t1-git-blog.html">Version control, git, & the command line</a></li>
+        <li><a href="c1-chefs-kitchen.html">Thoughts on DBC...</a></li>
+        <li><a href="062115.html">Margin vs. Border vs. Padding</a></li>
+        <li><a href="t3-arrays-hashes.html">Arrays vs. Hashes</a></li>
+        <li><a href="c3-thinking-style.html">Thinking Style</a>
+        <li><a href="t4-enumerable-methods.html">Enumerable Methods: group_by</a></li>
+        <li><a href="c4-tech-issues.html">Tech Issues: Online Security</a></li>
+        <li><a href="t5-ruby-classes.html">Ruby Classes</a></li>
+        <li><a href="c5-feedback.html">Feedback</a></li>
+      </ul>
+    </div>
+
+  </body>
+
+  <footer>
+    <div class="bottomBar">
+      <p>Email: leejenny0403@gmail.com</p>
+      <p>Twitter: @asdfjenny</p>
+    </div>
+
+  </footer>
+</main>
+
