@@ -22,23 +22,44 @@
     </div>
 
     <div class="blogEntry">
-      <p class="blogTitle">Feedback</p>
+      <p class="blogTitle">Variable Scope</p>
 
-     <p class="entryDate">072015</p>
+     <p class="entryDate">072715</p>
 
      <section>
-       <p>So far, pairing with others has helped me in more ways than one.</p>
+        <p>Scope tells us the places in a program that a specific variable can be accessed.</p>
 
-       <p> I think what I enjoy most about pairing is the idea that we both have to work collaboratively to solve a problem. Not only do we get insight into what and how the other person is thinking, but we get to learn from them new ways to solve the same problem.</p>
+        <p>In other words, scope just tells us where a variable can be used and not used.</p>
 
-       <p> Receiving feedback has definitely helped me with my learning not only to code, but also with how to code with others. Through feedback, I was able to see some areas where I might be weak or strong in that I myself may have not noticed by myself. When others point out what I can do to improve for a future exercise, I see it as a learning opportunity to become better than what I was before. </p>
+        <p>In Ruby, there are four types:</p>
+        <p> - local</p>
+        <p> - global</p>
+        <p> - instance</p>
+        <p> - class</p>
 
-       <p> From the feedback that I have recieved so far, I have tried to pseudocode more and think outloud more when coding with partners. I have also tried to make my code comments more concise and specific to make it easier for others to read.</p>
+        <p>Starting with local variables...</p>
+        <p>Local variables are only avaiable for use within the loop or method that it is declared in.</p>
 
-       <p> Overall, I really enjoy pairing with others and recieving feedback. I find them very helpful to my learning experience because it allows me to see things in a different perspective and find areas of weakenesses or strengths that I may not be aware of myself. </p>
+        <p>It's syntax is very simple:</p>
+        <p>local_variable = "I am local"</p>
 
+        <p>Global variables are available for use from anywhere in the program. It does not matter where it was declared.</p>
 
-       </p>
+        <p>It's syntax makes them easy to spot:</p>
+        <p>$global_variable = "The $ before the variable name declares it as a global variable"</p>
+
+        <p>Instance variables are available for use only for specific instances of an object.</p>
+
+        <p>In simpler terms, instance variables hold a value for one instance-- the next time, its value could be different.</p>
+
+        <p> Instance variables are written so:</p>
+        <p> @instance_variable = "only accessible within the class it is defined in, with its value varying depending on the instance"</p>
+
+        <p>Lastly, a class variable is a variable that is accessible by all instances of a class. Therefore, any change to the variable at any instance will cause it to change for everything else.</p>
+
+        <p> Class variables are written:</p>
+        <p> @@class_variable = "almost like a global variable, but only accessible within a class"
+
 
       </section>
     </div>
@@ -56,7 +77,7 @@
         <li><a href="t5-ruby-classes.html">Ruby Classes</a></li>
         <li><a href="c5-feedback.html">Feedback</a></li>
         <li><a href="t6-oop-concepts.html">Variable Scope</a></li>
-        <li><a href="c6-stereotype-threat.html">Stereotype Threat </a></li>
+        <li><a href="c6-stereotype-threat.html">Stereotype Threat</a></li>
       </ul>
     </div>
 

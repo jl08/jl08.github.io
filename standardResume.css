@@ -1,0 +1,36 @@
+p {
+	font-family: Hoefler Text;
+}
+
+.basicInfo {
+	text-align: center;
+	display: block;
+}
+
+.companyName {
+  font-weight: bold;
+}
+
+.educationBox {}
+.jobLocation {
+
+}
+.nameBlock {
+	text-align: center;
+	display: block;
+
+}
+.otherExperiences {}
+.professionalBox {}
+.sectionTitle {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.skillsInterests {}
+.timePeriod {}
+
+.yourName {
+
+	font-size: 3em;
+
+}
