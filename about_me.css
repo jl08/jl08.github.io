@@ -1,0 +1,50 @@
+a:link {
+  color: gray;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: .70em;
+}
+
+a:visited {
+  color: gray;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: .70em;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: .70em;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: .70em;
+}
+
+.navBar {
+  border-bottom: double black;
+}
+
+.navBar p {
+  color: gray;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: .70em;
+  display: inline-block;
+}
+
+.section {
+  font-size: .75em;
+  font-family: Arial;
+  width: 75%;
+}
+
+.sectionTitle {
+  font-size: 4em;
+  font-family: Vollkorn;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <title>jl08's blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abril Fatface">
+  <link rel="stylesheet" type="text/css" href="../mySite.css">
+</head>
+
+<main>
+
+  <body>
+    <div class="pageTitle">
+      <p class="firstName">Jenny</p><p class="lastName">Lee</p>
+    </div>
+
+    <div class="navBar">
+      <a href="../aboutMe.html"><p>about me</p></a>
+      <a href="../index.html"><p>blog</p></a>
+      <a href="../projects.html"><p>projects</p></a>
+      <a href="../my_resume.html"><p>resume</p></a>
+    </div>
+
+    <div class="blogEntry">
+      <p class="blogTitle">JavaScript vs. Ruby: Type Coercion</p>
+
+     <p class="entryDate">080315</p>
+
+     <section>
+        <p> While reading through the various similarities and differences between JavaScript and Ruby, the difference I found most interesting was JavaScript's way of automatically converting values in certain situations.</p>
+
+        <p>Basically in JavaScript, when you add two values that don't have matching types (ex. string + integer), instead of giving us an error message like Ruby does, it will come up with a way to make it work.</p>
+
+        <p> What I mean by "make it work" is that JavaScript will literally convert one of the values' type, to make the expression work out.</p>
+
+        <p>Let's take a look at these examples on JavaScript...</p>
+        <img src="java_example.png">
+        <p> These output values seem very strange, especially since in Ruby, all of them would result in error messages</p>
+
+        <p> Breaking it down line by line... </p>
+        <p>Line 1: JavaScript has basically changed the value of null to zero.</p>
+        <p>Ruby would return an error message, because 8 is an integer and null is not an integer, therefore, two different types of values cannot be multiplied to produce a viable product.</p>
+
+        <p>Line 3: JavaScript  again, has changed the string "5" into an integer in order to carry out this expression.</p>
+        <p>Again, Ruby would return an error message because "5" is a string, and you cannot subtract an integer from a string.</p>
+
+        <p>Line 5: JavaScript here has converted the integer 1 into a string "1" in order to produce 51. Needless to say, this won't work in Ruby.</p>
+
+        <p>Line 7: Here, JavaScript produces NaN as its output. This is because "five" is a string that cannot possibly be "coerced" into an integer. Therefore, it gives us an output of NaN.</p>
+        <p>In Ruby, this would actually produce an output of "fivefive". This is because in Ruby, you can multiply a string by a number-- it will just return that string x amount of times. </p>
+
+        <p>Line 9: In this last example, JavaScript basically "coerced" one of the values to the other value's type to make the condition true.</p>
+        <p>In Ruby, this would output the value false because false is not equal to the value of 0.</p>
+
+        <p> Here are the same equations on Ruby (irb) </p>
+        <img src="ruby_example.png">
+        <p> As you can see, aside from the last two examples, all of them result in error messages.</p>
+
+        <p>What to take away from this is that JavaScript has its own complex rules that it follows to make an expression work out, whereas Ruby will either give an error or give an output without changing the value types. </p>
+
+
+      </section>
+    </div>
+
+  </body>
+
+  <footer>
+    <div class="bottomBar">
+      <p>Email: leejenny0403@gmail.com</p>
+      <p>Twitter: @asdfjenny</p>
+    </div>
+
+  </footer>
+</main>
+
