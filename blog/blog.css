@@ -28,6 +28,7 @@ a:active {
 
 .navBar {
   border-bottom: double black;
+    display: block;
 }
 
 .navBar p {
@@ -38,49 +39,23 @@ a:active {
   display: inline-block;
 }
 
-
-section p {
+.blogTitle {
   font-family: Vollkorn;
-  font-size: 1.25em;
+  font-size: 3em;
+  display: inline;
+  font-weight: strong;
 }
 
 .blogEntry {
-  width: 60%;
-  height: 800px;
-  display: inline-block;
-  position: static;
-  margin-bottom: 1.5em;
-}
-
-.blogTitle {
-  text-align: right;
-  font-family: Abril Fatface;
-  font-size: 4em;
-}
-
-.bottomBar {
-  position: fixed;
-  width: 90%;
-  text-align: right;
-  font-family: Century Gothic;
-  font-size: .75em;
-  font-color: black;
   display: block;
 }
 
-
-.rightNavi {
-  background-color: white;
-  display: inline-block;
-  width: 20%
-  text-decoration: none;
-  margin-top: 1em;
-  position: fixed;
-  float: right;
+.entryDate {
+  font-family: Arial;
+  font-size: .75em;
+  color: gray;
 }
 
-.rntitle {
-  text-align: center;
-  font-family : Century Gothic;
-
+.entryText {
+  font-family: Vollkorn;
 }
