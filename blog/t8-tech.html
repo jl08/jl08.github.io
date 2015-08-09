@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+  <title>jl08's blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abril Fatface">
+  <link rel="stylesheet" type="text/css" href="../mySite.css">
+</head>
+
+<main>
+
+  <body>
+    <div class="pageTitle">
+      <p class="firstName">Jenny</p><p class="lastName">Lee</p>
+    </div>
+
+    <div class="blogEntry">
+
+      <p class="blogTitle">Regular Expressions</p>
+
+      <p class="entryDate">080915</p>
+
+      <section>
+
+        <p>Regular expressions (regex/regexp) are used to look for a specific set of patterns in strings.</p>
+
+        <p>They are basically a sequence of characters that allow you to look through and pick out the characters in the string that match that specific sequence.</p>
+
+        <p>When looking at regular expressions, there are two types of characters: </p>
+
+        <p>A metacharacter, carries a special meaning.</p>
+
+        <p>A regular character, which just carries its literal meaning. </p>
+
+        <p> With both types of characters combined, a pattern can be specified.</p>
+
+        <p>There are certain operations that allow us to create regular expressions:</p>
+
+        <p> The"or" operator is represented by a vertical bar |</p>
+        <p> For instance, if you wanted to find the word mum and mom, it would look like mum|mom</p>
+
+        <p> To group things together, parentheses can be used. They allow us to define the scope and the order we want the operators to be in. For example, mum|mom can also be written m(u|o)m.</p>
+
+        <p> A question mark ? after a character tells us how often that character can occur. For example, if we were to write colou?r, the ? mark after the character 'u' shows that there can be zero or one of the character 'u'. This would give us both "color" and "colour".</p>
+
+        <p> An asterisk * tells us that there is zero or more of the character that precedes it. For example, if we did jenn*y, it could give "jeny", jenny", "jennny", etc. </p>
+
+        <p> A plus sign + tells us there is one or more of the character that precedes it. Again, if we used this on jenn+y, it could give us "jenny", "jennny"," jennnny", but not "jeny".</p>
+
+        <p> And of course, we can combine these operations if you wanted to locate a very complex expression.</p>
+
+        <p> Regular expressions can look intimidating and confusing at first, but with a little guidance and practice, it can be a very useful tool!</p>
+
+      </section>
+  </div>
+
+  </body>
+
+  <footer>
+    <div class="bottomBar">
+      <p>Email: leejenny0403@gmail.com</p>
+      <p>Twitter: @asdfjenny</p>
+    </div>
+  </footer>
+
+</main>
+
