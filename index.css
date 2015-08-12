@@ -26,61 +26,63 @@ a:active {
   font-size: .70em;
 }
 
-.navBar {
-  border-bottom: double black;
-}
-
-.navBar p {
-  color: gray;
-  text-decoration: none;
-  font-family: Arial;
-  font-size: .70em;
-  display: inline-block;
-}
-
-
-section p {
-  font-family: Vollkorn;
-  font-size: 1.25em;
-}
-
-.blogEntry {
-  width: 60%;
-  height: 800px;
-  display: inline-block;
-  position: static;
-  margin-bottom: 1.5em;
-}
-
-.blogTitle {
-  text-align: right;
-  font-family: Abril Fatface;
-  font-size: 4em;
-}
-
-.bottomBar {
-  position: fixed;
-  width: 90%;
-  text-align: right;
-  font-family: Century Gothic;
+.header {
   font-size: .75em;
-  font-color: black;
+  font-family: Futura;
+  color:#404040;
+  position: relative;
+  margin-left: .5em;
+  float: left;
+  margin-top: -.5em;
+
+
+}
+
+.header p {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+body {
+  background-color: #202020;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  position: relative;
+  height: 100%;
+}
+
+nav {
+  clear: both;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
+  text-align: center;
 }
 
 
-.rightNavi {
-  background-color: white;
+
+nav div {
   display: inline-block;
-  width: 20%
-  text-decoration: none;
-  margin-top: 1em;
-  position: fixed;
+  padding: .5em;
+
+
+}
+
+.footer {
+  position: relative;
+  margin-left: -.5em;
   float: right;
 }
 
-.rntitle {
-  text-align: center;
-  font-family : Century Gothic;
+.footer img {
+  width: 1.90em;
+  height: 1.90em;
+}
+
+#name {
+  color: #606060;
 
 }
