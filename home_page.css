@@ -29,7 +29,7 @@ a:active {
 .header {
   font-size: .75em;
   font-family: Futura;
-  color:#606060;
+  color:#404040;
   position: relative;
   margin-left: .5em;
   float: left;
@@ -83,6 +83,6 @@ nav div {
 }
 
 #name {
-  color: #404040;
+  color: #606060;
 
 }

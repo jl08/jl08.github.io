@@ -1,0 +1,86 @@
+a:link {
+  color: gray;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: .70em;
+}
+
+a:visited {
+  color: gray;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: .70em;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: .70em;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: .70em;
+}
+
+.navBar {
+  border-bottom: double black;
+}
+
+.navBar p {
+  color: gray;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: .70em;
+  display: inline-block;
+}
+
+
+section p {
+  font-family: Vollkorn;
+  font-size: 1.25em;
+}
+
+.blogEntry {
+  width: 60%;
+  height: 800px;
+  display: inline-block;
+  position: static;
+  margin-bottom: 1.5em;
+}
+
+.blogTitle {
+  text-align: right;
+  font-family: Abril Fatface;
+  font-size: 4em;
+}
+
+.bottomBar {
+  position: fixed;
+  width: 90%;
+  text-align: right;
+  font-family: Century Gothic;
+  font-size: .75em;
+  font-color: black;
+  display: block;
+}
+
+
+.rightNavi {
+  background-color: white;
+  display: inline-block;
+  width: 20%
+  text-decoration: none;
+  margin-top: 1em;
+  position: fixed;
+  float: right;
+}
+
+.rntitle {
+  text-align: center;
+  font-family : Century Gothic;
+
+}
