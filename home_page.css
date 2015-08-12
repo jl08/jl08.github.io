@@ -26,25 +26,63 @@ a:active {
   font-size: .70em;
 }
 
-.navBar {
-  border-bottom: double black;
-}
-
-.navBar p {
-  color: gray;
-  text-decoration: none;
-  font-family: Arial;
-  font-size: .70em;
-  display: inline-block;
-}
-
-.section {
+.header {
   font-size: .75em;
-  font-family: Arial;
-  width: 75%;
+  font-family: Futura;
+  color:#606060;
+  position: relative;
+  margin-left: .5em;
+  float: left;
+  margin-top: -.5em;
+
+
 }
 
-.sectionTitle {
-  font-size: 4em;
-  font-family: Vollkorn;
+.header p {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+body {
+  background-color: #202020;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  position: relative;
+  height: 100%;
+}
+
+nav {
+  clear: both;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+
+
+nav div {
+  display: inline-block;
+  padding: .5em;
+
+
+}
+
+.footer {
+  position: relative;
+  margin-left: -.5em;
+  float: right;
+}
+
+.footer img {
+  width: 1.90em;
+  height: 1.90em;
+}
+
+#name {
+  color: #404040;
+
 }
