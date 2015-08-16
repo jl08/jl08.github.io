@@ -1,5 +1,11 @@
 p {
-	font-family: Hoefler Text;
+	font-family: Arial;
+  color: #606060;
+  font-size: .75em;
+  margin-top: .25em;
+  margin-bottom: .25em;
+
+
 }
 
 .basicInfo {
@@ -9,28 +15,60 @@ p {
 
 .companyName {
   font-weight: bold;
+  font-size: .9em;
 }
 
-.educationBox {}
-.jobLocation {
-
-}
-.nameBlock {
+header {
 	text-align: center;
 	display: block;
+  background-color: #202020;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 999;
+}
+
+body {
+  background-color: #202020;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  column-count:2;
+  column-gap:10px;
+  position: relative;
+}
+.sectionBox1 {
+  text-align: right;
+
 
 }
-.otherExperiences {}
-.professionalBox {}
+
+.sectionBox2 {
+  text-align: left;
+
+
+}
+
+.sectionBox3 {
+  text-align: right;
+
+
+}
+
+.sectionBox4 {
+  text-align: left;
+
+}
+
 .sectionTitle {
   font-weight: bold;
   font-size: 1.5em;
+  font-family: Futura;
 }
-.skillsInterests {}
-.timePeriod {}
 
-.yourName {
-
+.myName {
+  font-family: Futura;
+  text-align: center;
 	font-size: 3em;
-
+  color: #606060;
 }
