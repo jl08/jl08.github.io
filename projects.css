@@ -1,60 +1,66 @@
 a:link {
-  color: gray;
+  color: #404040;
   text-decoration: none;
-  font-family: Arial;
-  font-size: .70em;
+  font-family: Courier;
+  font-size: .80em;
 }
 
 a:visited {
-  color: gray;
+  color: #404040;
   text-decoration: none;
-  font-family: Arial;
-  font-size: .70em;
+  font-family: Courier;
+  font-size: .80em;
 }
 
 a:hover {
-  color: black;
+  color: #606060;
   text-decoration: none;
-  font-family: Arial;
-  font-size: .70em;
+  font-family: Courier;
+  font-size: .80em;
 }
 
 a:active {
-  color: black;
+  color: #606060;
   text-decoration: none;
-  font-family: Arial;
-  font-size: .70em;
+  font-family: Courier;
+  font-size: .80em;
 }
 
+body {
+  background-color: black;
+}
 .navBar {
-  border-bottom: double black;
+  background-color: black;
+  border-bottom: black;
 }
 
 .navBar p {
-  color: gray;
+  color: #404040;
   text-decoration: none;
-  font-family: Arial;
-  font-size: .70em;
+  font-family: Courier;
+  font-size: .80em;
   display: inline-block;
 }
 
 .pageTitle {
-  font-size: 3em;
-  font-family: Arial;
-  text-align: center;
+  font-size: 5em;
+  font-family: Futura;
+  text-align: right;
+  color: #404040;
 
 }
 
 .projects {
-  text-align: center;
+  text-align: left;
 }
 .section {
   font-size: .75em;
-  font-family: Arial;
+  font-family: Futura;
   width: 75%;
 }
 
 .sectionTitle {
   font-size: 4em;
-  font-family: Vollkorn;
+  font-family: Futura;
+  color: #404040;
 }
